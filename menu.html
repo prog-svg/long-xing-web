@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Menú | LONG XING</title>
+  <meta name="description" content="Explora por separado los platillos, guisos, acompañamientos y bebidas de LONG XING.">
+  <meta name="theme-color" content="#151111"><link rel="icon" type="image/png" href="assets/mascota-bollo.png"><link rel="stylesheet" href="styles.css">
+</head>
+<body class="page-menu">
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="LONG XING, inicio"><img src="assets/logo-long-xing.png" alt="LONG XING Comida Asiática"></a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav"><span></span><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Navegación principal"><a href="index.html">Inicio</a><a class="is-current" href="menu.html">Menú</a><a href="marcas.html">Nuestras marcas</a><a href="unete.html">Únete</a></nav>
+    <a class="header-cta" href="https://wa.me/522381479821?text=Hola%2C%20quiero%20informaci%C3%B3n%20del%20men%C3%BA%20de%20LONG%20XING" target="_blank" rel="noopener">WhatsApp <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main id="contenido">
+    <section class="sub-hero menu-hero">
+      <div>
+        <p class="eyebrow eyebrow-light"><span></span> Elige una categoría</p>
+        <h1>Un menú.<br><em>Cuatro bolsillos.</em></h1>
+        <p>Entra a cada pestaña para ver solamente lo que buscas: platillos, guisos, acompañamientos o bebidas.</p>
+      </div>
+      <div class="sub-hero-art">
+        <img class="menu-bowl motion-float" src="assets/decor-tazon.png" alt="" aria-hidden="true">
+        <img class="menu-chef" src="assets/mascota-bollo.png" alt="Bollo cocinero, mascota de LONG XING">
+      </div>
+    </section>
+
+    <section class="menu-explorer" aria-label="Explorador del menú">
+      <aside class="menu-rail">
+        <p>Selecciona</p>
+        <div class="menu-tabs" role="tablist" aria-label="Categorías del menú">
+          <button class="menu-tab is-active" type="button" role="tab" aria-selected="true" aria-controls="panel-platillos" id="tab-platillos" data-category="platillos"><span>01</span> Platillos <b>↗</b></button>
+          <button class="menu-tab" type="button" role="tab" aria-selected="false" aria-controls="panel-guisos" id="tab-guisos" data-category="guisos"><span>02</span> Guisos <b>↗</b></button>
+          <button class="menu-tab" type="button" role="tab" aria-selected="false" aria-controls="panel-acompanamientos" id="tab-acompanamientos" data-category="acompanamientos"><span>03</span> Acompañamientos <b>↗</b></button>
+          <button class="menu-tab" type="button" role="tab" aria-selected="false" aria-controls="panel-bebidas" id="tab-bebidas" data-category="bebidas"><span>04</span> Bebidas <b>↗</b></button>
+        </div>
+        <div class="rail-note"><strong>¿Ya sabes qué pedir?</strong><a href="https://wa.me/522381479821?text=Hola%2C%20quiero%20hacer%20un%20pedido%20en%20LONG%20XING" target="_blank" rel="noopener">Escríbenos por WhatsApp ↗</a></div>
+      </aside>
+
+      <div class="menu-panels">
+        <section class="menu-panel is-active" id="panel-platillos" role="tabpanel" aria-labelledby="tab-platillos" data-panel="platillos">
+          <div class="panel-heading"><div><p class="panel-index">01 / Platillos</p><h2>Elige cuántos<br>guisos quieres.</h2></div><p>Todos incluyen un acompañamiento: arroz frito, chow mein o combinado.</p></div>
+          <div class="plate-grid">
+            <article class="plate-card plate-one"><span class="plate-watermark">1</span><p>Platillo 1</p><h3>Un guiso</h3><span>1 guiso + 1 acompañamiento</span><strong>Precio por confirmar</strong><a href="https://wa.me/522381479821?text=Hola%2C%20quiero%20consultar%20el%20Platillo%201" target="_blank" rel="noopener">Consultar ↗</a></article>
+            <article class="plate-card plate-two"><span class="best-tag">El más pedido</span><span class="plate-watermark">2</span><p>Platillo 2</p><h3>Dos guisos</h3><span>2 guisos + 1 acompañamiento</span><strong class="plate-price"><small>$</small>160</strong><a href="https://wa.me/522381479821?text=Hola%2C%20quiero%20pedir%20el%20Platillo%202%20de%20%24160" target="_blank" rel="noopener">Pedir información ↗</a></article>
+            <article class="plate-card plate-three"><span class="plate-watermark">3</span><p>Platillo 3</p><h3>Tres guisos</h3><span>3 guisos + 1 acompañamiento</span><strong>Precio por confirmar</strong><a href="https://wa.me/522381479821?text=Hola%2C%20quiero%20consultar%20el%20Platillo%203" target="_blank" rel="noopener">Consultar ↗</a></article>
+          </div>
+          <p class="menu-disclaimer">El precio confirmado actualmente es el del Platillo 2. Consulta los demás precios y disponibilidad por WhatsApp.</p>
+        </section>
+
+        <section class="menu-panel" id="panel-guisos" role="tabpanel" aria-labelledby="tab-guisos" data-panel="guisos" hidden>
+          <div class="panel-heading"><div><p class="panel-index">02 / Guisos</p><h2>El sabor va<br>por tu cuenta.</h2></div><p>Escoge tus favoritos según el tamaño de platillo que elegiste.</p></div>
+          <div class="dish-feature">
+            <div class="dish-photo"><span>El favorito</span><img src="assets/pollo-naranja-picante.png" alt="Pollo a la naranja picante" loading="lazy"></div>
+            <div><p>El más popular</p><h3>Pollo a la naranja picante</h3><p>Dulce, brillante y con un toque picante. El guiso que más piden en LONG XING.</p></div>
+          </div>
+          <ol class="dish-list">
+            <li><span>01</span>Costillas a la BBQ <small>6 trozos</small></li><li><span>02</span>Pollo a la plancha con picante</li><li><span>03</span>Cerdo con calabacitas</li><li><span>04</span>Pollo a la plancha sin picante</li>
+            <li><span>05</span>Pollo, cerdo y lomo</li><li><span>06</span>Filete de pescado <small>2 piezas</small></li><li><span>07</span>Rollos de queso con camarón <small>1 pieza</small></li><li><span>08</span>Pollo agridulce</li>
+            <li><span>09</span>Pollo agridulce con picante</li><li><span>10</span>Cerdo picante</li><li><span>11</span>Brócoli con pollo</li><li><span>12</span>Camarones fritos con chile seco <small>6 piezas</small></li>
+          </ol>
+        </section>
+
+        <section class="menu-panel" id="panel-acompanamientos" role="tabpanel" aria-labelledby="tab-acompanamientos" data-panel="acompanamientos" hidden>
+          <div class="panel-heading"><div><p class="panel-index">03 / Acompañamientos</p><h2>Hazle espacio<br>a lo bueno.</h2></div><p>Cada platillo incluye uno. Si no puedes decidir, pide arroz y chow mein combinados.</p></div>
+          <div class="side-grid">
+            <article class="side-option side-rice"><span>01</span><img src="assets/arroz-frito.png" alt="Arroz frito" loading="lazy"><div><p>Calientito y clásico</p><h3>Arroz frito</h3></div></article>
+            <article class="side-option side-noodle"><span>02</span><img src="assets/chow-mein.png" alt="Chow mein" loading="lazy"><div><p>El favorito de muchos</p><h3>Chow mein</h3></div></article>
+            <article class="side-option side-mix"><span>03</span><div class="mix-visual"><img src="assets/arroz-frito.png" alt=""><img src="assets/chow-mein.png" alt=""></div><div><p>Lo mejor de los dos</p><h3>Combinado</h3></div></article>
+          </div>
+        </section>
+
+        <section class="menu-panel" id="panel-bebidas" role="tabpanel" aria-labelledby="tab-bebidas" data-panel="bebidas" hidden>
+          <div class="panel-heading"><div><p class="panel-index">04 / Bebidas</p><h2>Algo fresco<br>para acompañar.</h2></div><p>Pregunta por sabores y disponibilidad del día. Los precios se confirman al ordenar.</p></div>
+          <div class="drink-grid">
+            <article class="drink-card drink-red"><span>600 ml</span><img src="assets/coca-600.png" alt="Coca-Cola de 600 mililitros" loading="lazy"><div><p>Refresco</p><h3>Coca-Cola</h3><small>Consulta disponibilidad</small></div></article>
+            <article class="drink-card drink-blue"><span>600 ml</span><img src="assets/agua-ciel-600.png" alt="Agua Ciel de 600 mililitros" loading="lazy"><div><p>Agua</p><h3>Ciel</h3><small>Consulta disponibilidad</small></div></article>
+            <article class="drink-card drink-yellow"><span>600 ml</span><img src="assets/sidral-600.png" alt="Sidral Mundet de 600 mililitros" loading="lazy"><div><p>Refresco</p><h3>Sidral Mundet</h3><small>Consulta disponibilidad</small></div></article>
+            <article class="drink-card drink-jade"><span>Botella</span><img src="assets/fuxe-tea.png" alt="Fuze Tea" loading="lazy"><div><p>Té</p><h3>Fuze Tea</h3><small>Consulta disponibilidad</small></div></article>
+            <article class="drink-card drink-pink"><span>355 ml</span><img src="assets/sodas-lata.png" alt="Refrescos en lata" loading="lazy"><div><p>Varios sabores</p><h3>Refrescos en lata</h3><small>Consulta disponibilidad</small></div></article>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="footer-brand"><img src="assets/logo-long-xing.png" alt="LONG XING Comida Asiática"><p>Comida asiática para elegir, combinar y disfrutar.</p></div><nav aria-label="Enlaces del pie de página"><a href="index.html">Inicio</a><a href="marcas.html">Nuestras marcas</a><a href="unete.html">Únete</a></nav><a class="footer-contact" href="https://wa.me/522381479821" target="_blank" rel="noopener">+52 238 147 9821 ↗</a></footer>
+  <a class="whatsapp-float" href="https://wa.me/522381479821?text=Hola%2C%20quiero%20hacer%20un%20pedido%20en%20LONG%20XING" target="_blank" rel="noopener" aria-label="Escribir a LONG XING por WhatsApp"><span aria-hidden="true">✆</span><b>WhatsApp</b></a>
+  <script src="script.js"></script>
+</body>
+</html>
