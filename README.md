@@ -1,25 +1,31 @@
-# Sitio web de LONG XING
+# LONG XING — sitio web
 
-Este paquete contiene una página estática lista para publicarse.
+Sitio estático y responsivo de LONG XING, listo para subir a un repositorio o a un hosting convencional.
 
-## Archivos principales
+## Estructura
 
-- `index.html`: página principal.
-- `styles.css`: diseño y adaptación para celular.
-- `script.js`: menú móvil.
-- `assets/`: imágenes y logos en PNG.
+- `dist/index.html`: portada.
+- `dist/menu.html`: menú interactivo por categorías.
+- `dist/marcas.html`: familia de marcas.
+- `dist/unete.html`: contacto para formar parte del equipo.
+- `dist/styles.css`: estilos, animaciones y diseño responsivo.
+- `dist/script.js`: navegación móvil y pestañas del menú.
+- `dist/assets/`: logos, platillos, bebidas, mascota y decoraciones PNG.
 
-## Subirlo a un repositorio
+## Publicación
 
-1. Copia todo el contenido de esta carpeta a la raíz del repositorio.
-2. Confirma que `index.html` quede en la raíz, no dentro de otra carpeta.
-3. Sube los cambios a la rama principal.
+Configura la carpeta pública del hosting como `dist`. No requiere compilación ni dependencias.
 
-## Publicarlo con GitHub Pages
+## Vista previa local
 
-1. Abre **Settings → Pages** en GitHub.
-2. En **Build and deployment**, selecciona **Deploy from a branch**.
-3. Selecciona la rama principal y la carpeta `/ (root)`.
-4. Guarda los cambios y espera a que GitHub muestre la dirección publicada.
+Con Node.js instalado:
 
-El sitio no requiere instalación, servidor ni proceso de compilación.
+```powershell
+node dev-server.mjs
+```
+
+Abre `http://127.0.0.1:46731`.
+
+## Datos pendientes
+
+Los precios de los platillos 1 y 3, así como los precios de las bebidas, se muestran como información por confirmar para no inventar datos.
